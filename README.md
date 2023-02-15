@@ -3,7 +3,7 @@ Android Application using Kotlin News App where you can browse or search for Hot
 ## Technologies used:
 Android using Kotlin
 ( Mvvm & LiveData - View Binding - Navigation Component - coroutines - Room DB - Retrofit - Dagger Hilt - Paging 3 - Glide )
-![6](https://user-images.githubusercontent.com/93207605/218975867-4b1b555d-cade-490a-bd0f-474e17cbbcaa.png)
+![6](https://user-images.githubusercontent.com/93207605/218975867-4b1b555d-cade-490a-bd0f-474e17cbbcaa.png | width=100)
 ![7](https://user-images.githubusercontent.com/93207605/218975890-0dcff003-b3f8-41df-bd9a-cbeefb965171.png)
 ![8](https://user-images.githubusercontent.com/93207605/218975905-47847e34-7db4-4adc-b11b-655b806ce6b3.png)
 ![1](https://user-images.githubusercontent.com/93207605/218975911-1188eccc-3077-4f61-919f-51f5adab7366.png)
