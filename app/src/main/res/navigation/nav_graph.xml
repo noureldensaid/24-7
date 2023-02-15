@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/breakingNewsFragment">
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.example.news.ui.BreakingNewsFragment"
+        android:label="Top News"
+        tools:layout="@layout/fragment_breaking_news">
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.news.ui.InfoFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_info">
+        <argument
+            android:name="article"
+            app:argType="com.example.news.models.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.example.news.ui.SavedNewsFragment"
+        android:label="Saved News"
+        tools:layout="@layout/fragment_saved_news">
+        <action
+            android:id="@+id/action_savedNewsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.example.news.ui.BusinessFragment"
+        android:label="Business"
+        tools:layout="@layout/fragment_business">
+        <action
+            android:id="@+id/action_businessFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.news.ui.SportsFragment"
+        android:label="Sports"
+        tools:layout="@layout/fragment_sports">
+        <action
+            android:id="@+id/action_sportsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/technologyFragment"
+        android:name="com.example.news.ui.TechnologyFragment"
+        android:label="Technology"
+        tools:layout="@layout/fragment_technology">
+        <action
+            android:id="@+id/action_technologyFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+</navigation>
